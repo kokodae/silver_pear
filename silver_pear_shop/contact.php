@@ -65,7 +65,7 @@ if(isset($_POST['send'])){
       <h3>Связаться с нами</h3>
       <input type="text" name="name" placeholder="Введите свое имя" required maxlength="20" class="box">
       <input type="email" name="email" placeholder="Введите email" required maxlength="50" class="box">
-      <input type="number" name="number" min="0" max="99999999999" placeholder="Введите номер телефона" required onkeypress="if(this.value.length == 10) return false;" class="box">
+      <input type="number" name="number" min="0" max="99999999999" placeholder="Введите номер телефона" required onkeypress="if(this.value.length == 11) return false;" class="box">
       <textarea name="msg" class="box" placeholder="Введите сообщение" cols="30" rows="10"></textarea>
       <input type="submit" value="Отправить сообщение" name="send" class="btn">
    </form>
